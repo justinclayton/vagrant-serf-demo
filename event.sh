@@ -10,9 +10,8 @@ echo "SERF_USER_EVENT is ${SERF_USER_EVENT}"
 echo "SERF_USER_LTIME is ${SERF_USER_LTIME}"
 echo
 echo "BEGIN event data"
-while read line; do
-  echo $line
-done
+cat
+echo
 echo "END event data"
 echo "$0 finished!"
 echo
